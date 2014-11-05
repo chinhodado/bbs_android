@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blood Brothers Simulator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help_about">HelpAboutActivity</string>
+    <string name="about_text">
+    <![CDATA[
+        Blood Brothers Simulator <br/>
+        Copyright Chin 2014 <br/><br/>
+        This is a port of my Blood Brothers Simulator. For bug report or feature request, please go to
+        https://github.com/chinhodado/Blood-Brothers-PvP-Simulator
+    ]]>
+    </string>
+</resources>
