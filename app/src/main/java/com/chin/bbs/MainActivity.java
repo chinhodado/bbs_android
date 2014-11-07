@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -18,6 +20,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().requestFeature(Window.FEATURE_PROGRESS);
         setContentView(R.layout.activity_main);
 
         WebView webView = (WebView) findViewById(R.id.webView);
@@ -28,6 +31,16 @@ public class MainActivity extends Activity {
         webSettings.setDomStorageEnabled(true);
 
         webView.setWebViewClient(new WebViewClient());
+
+        final Activity activity = this;
+        webView.setWebChromeClient(new WebChromeClient(){
+            public void onProgressChanged(WebView view, int progress) {
+                activity.setTitle("Loading...");
+                activity.setProgress(progress * 100);
+                if(progress == 100)
+                    activity.setTitle("Blood Brothers Simulator");
+            }
+        });
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -50,8 +63,14 @@ public class MainActivity extends Activity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_about) {
+        if (id == R.id.action_help) {
             Intent intent = new Intent(this, HelpAboutActivity.class);
+            intent.putExtra("INTENT", "help");
+            startActivity(intent);
+        }
+        else if (id == R.id.action_about) {
+            Intent intent = new Intent(this, HelpAboutActivity.class);
+            intent.putExtra("INTENT", "about");
             startActivity(intent);
         }
 

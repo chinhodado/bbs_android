@@ -4,12 +4,30 @@
     <string name="app_name">Blood Brothers Simulator</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_help_about">HelpAboutActivity</string>
+    <string name="help_text">
+    <![CDATA[
+        <h1> Usage </h1>
+        <b>Q: How can I select a warlord?</b> <br/>
+        A: All warlords\' name starts with \"The\", e.g. "The Black Brute", "The Golden Lance", etc. <br/><br/>
+
+        <b>Q: What is the simulation mode? Why can\'t I use it?</b> <br/>
+        A: The simulation mode allows you to simulate a large number of battles between brigades of your choice.
+        It\'s useful for brigade strength analysis. <br/><br/>
+        This feature is only available on Android 4.4 and up. <br/><br/>
+
+        <h1> General </h1>
+        <b>Q: I like this app!</b> <br/>
+        A: I\'m glad to hear it. Please rate it on the Play Store :) <br/><br/>
+
+        <b>Q: This app sucks!/I found a bug/This is not useful/I have a suggestion...</b> <br/>
+        A: For bug report or feature request, please go to https://github.com/chinhodado/Blood-Brothers-PvP-Simulator <br/>
+        You can also drop me a line at chinho.dev@gmail.com and let me know how I can improve it. Thank you :)<br/><br/>
+      ]]>
+    </string>
     <string name="about_text">
     <![CDATA[
         Blood Brothers Simulator <br/>
-        Copyright Chin 2014 <br/><br/>
-        This is a port of my Blood Brothers Simulator. For bug report or feature request, please go to
-        https://github.com/chinhodado/Blood-Brothers-PvP-Simulator
+        Copyright Chin 2014
     ]]>
     </string>
 </resources>
