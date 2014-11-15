@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 20
-    buildToolsVersion "20.0.0"
+    buildToolsVersion "21.1.1"
 
     defaultConfig {
         applicationId "com.chin.bbs"
         minSdkVersion 14
         targetSdkVersion 20
-        versionCode 3
-        versionName "1.1"
+        versionCode 5
+        versionName "1.12"
     }
     buildTypes {
         release {
