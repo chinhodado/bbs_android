@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Blood Brothers Simulator</string>
+    <string name="app_name">BB Simulator</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_help_about">HelpAboutActivity</string>
     <string name="help_text">
@@ -25,8 +25,16 @@
     </string>
     <string name="about_text">
     <![CDATA[
-        Blood Brothers Simulator <br/>
-        Copyright Chin 2014
+        BB Simulator <br/>
+        Copyright Chin 2014 <br><br>
+
+        This app is not authorized or created by the authors or legal representatives of "Blood Brothers".
+        This application complies with US Copyright law guidelines of "fair use". If you feel there is a direct copyright
+        or trademark violation that doesn\'t follow within the "fair use" guidelines please contact us to discuss.
+        All characters and their names, places, events and all other aspects concerning the "Blood Brothers" are the
+        property of their respective owners. All trademark and copyright concerning the "Blood Brothers" series are the
+        property of their respective owners. We make no claim to and do not have any rights to any of the foregoing. Image
+        in this application icon is used only to convey what the application is about.
     ]]>
     </string>
 </resources>
