@@ -4,6 +4,7 @@
     <string name="app_name">BB Simulator</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_help_about">HelpAboutActivity</string>
+    <string name="adUnitId">ca-app-pub-8564595162671342/2172879318</string>
     <string name="help_text">
     <![CDATA[
         <h1> Usage </h1>

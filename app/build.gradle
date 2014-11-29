@@ -8,8 +8,8 @@ android {
         applicationId "com.chin.bbs"
         minSdkVersion 14
         targetSdkVersion 20
-        versionCode 6
-        versionName "1.13"
+        versionCode 7
+        versionName "1.14"
     }
     buildTypes {
         release {
