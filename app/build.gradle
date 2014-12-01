@@ -8,8 +8,8 @@ android {
         applicationId "com.chin.bbs"
         minSdkVersion 14
         targetSdkVersion 20
-        versionCode 7
-        versionName "1.14"
+        versionCode 8
+        versionName "1.15"
     }
     buildTypes {
         release {
@@ -22,4 +22,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.google.android.gms:play-services:5.+'
+    compile files('libs/libGoogleAnalyticsServices.jar')
 }
